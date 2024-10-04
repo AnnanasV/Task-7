@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ArythmeticOverload\ArythmeticOverload.csproj" />
+    <ProjectReference Include="..\Shapes\Shapes.csproj" />
   </ItemGroup>
 
 </Project>

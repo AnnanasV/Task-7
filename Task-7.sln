@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task-7", "Task-7\Task-7.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArythmeticOverload", "ArythmeticOverload\ArythmeticOverload.csproj", "{86AC12AC-2498-4D6D-9093-E6462026C5CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{E24B3189-5959-41E1-BBBD-B1C61A83DA43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{86AC12AC-2498-4D6D-9093-E6462026C5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86AC12AC-2498-4D6D-9093-E6462026C5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86AC12AC-2498-4D6D-9093-E6462026C5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E24B3189-5959-41E1-BBBD-B1C61A83DA43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24B3189-5959-41E1-BBBD-B1C61A83DA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E24B3189-5959-41E1-BBBD-B1C61A83DA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E24B3189-5959-41E1-BBBD-B1C61A83DA43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
