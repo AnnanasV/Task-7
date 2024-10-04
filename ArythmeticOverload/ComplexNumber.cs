@@ -38,6 +38,32 @@
             return new ComplexNumber(real, -imaginary);
         }
 
+        #region overloading Equality
+        public static bool operator ==(ComplexNumber a, ComplexNumber b)
+        {
+            if(Equals(a, b)) return true;
+            return false;
+        }
+
+        public static bool operator !=(ComplexNumber a, ComplexNumber b)
+        {
+            return !(a == b);
+        }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj == null || GetType() != obj.GetType()) return false;
+
+            ComplexNumber num = (ComplexNumber)obj;
+            return real == num.real && imaginary == num.imaginary;
+        }
+
+        public override int GetHashCode()
+        {
+            return real.GetHashCode() ^ imaginary.GetHashCode();
+        }
+        #endregion
+
         public override string ToString()
         {
             if (imaginary == 0) return real.ToString();
