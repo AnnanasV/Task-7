@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task-7", "Task-7\Task-7.csproj", "{B1DF6F97-3035-413D-A510-A005EE6851B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArythmeticOverload", "ArythmeticOverload\ArythmeticOverload.csproj", "{86AC12AC-2498-4D6D-9093-E6462026C5CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B1DF6F97-3035-413D-A510-A005EE6851B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1DF6F97-3035-413D-A510-A005EE6851B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1DF6F97-3035-413D-A510-A005EE6851B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86AC12AC-2498-4D6D-9093-E6462026C5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AC12AC-2498-4D6D-9093-E6462026C5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AC12AC-2498-4D6D-9093-E6462026C5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AC12AC-2498-4D6D-9093-E6462026C5CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
